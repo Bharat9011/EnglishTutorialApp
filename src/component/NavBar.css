@@ -1,0 +1,6 @@
+.custom-hover:hover {
+    background-color: #f8f9fa;
+    color: #000 !important;
+    transition: .3s;
+  }
+
