@@ -10,9 +10,9 @@ const MainTopicList = createSlice({
             { id: 4, name: 'Tense', path: '/Tense' }
         ],
         Level2List: [
-            { id: 1, name: 'Introducation' },
-            { id: 2, name: 'Model Verb' },
-            { id: 3, name: 'Structure' }
+            { id: 1, name: 'Introducation', path: '/IntroducationLevel2' },
+            { id: 2, name: 'Model Verb', path: '/ModelVerb' },
+            { id: 3, name: 'Structure', path: '/Structure' }
         ]
     },
     reducers: {}
@@ -45,11 +45,19 @@ const SubTopicOfMainList = createSlice({
             { id: 7, name: 'Negative Tense Question', path: '/NegativeTenseQuestion' },
             { id: 8, name: 'WH Positive Tense Question', path: '/WHPositiveTenseQuestion' },
             { id: 9, name: 'WH Negative Tense Question', path: '/WHNegativeTenseQuestion' }
+        ],
+        ModelVerb: [
+            {id: 1, name: 'Introducation', path: '/Introducation'},
+            {id: 2, name: 'Positive Statement', path: '/PositiveStatement'},
+            {id: 3, name: 'Negative Statement', path: '/NegativeStatement'},
+            {id: 4, name: 'Positive Question', path: '/PositiveQuestion'},
+            {id: 5, name: 'Negative Question', path: '/NegativeQuestion'},
+            {id: 6, name: 'Wh Positive Question', path: '/WHPositiveQuestion'},
+            {id: 7, name: 'Wh Negative Question', path: '/WHNegativeQuestion'}
         ]
     },
     reducers: {}
 });
-
 
 const store = configureStore({
     reducer: {

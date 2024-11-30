@@ -9,7 +9,7 @@ const NavBar = () => {
     <div>
       <nav className='d-flex justify-content-around align-items-center' style={{height:"80px",width:"100%",background: "linear-gradient(90deg, #1E3A8A, #2563EB)"}}>
         <div className='d-flex align-items-center'>
-            <img src='EnglishTutorialLogo.png' width="60" height="60"/>
+            <img src='/EnglishTutorialLogo.png' width="60" height="60"/>
             <p className='mt-2 ms-3 fw-bold fs-4 text-white'>EngTut</p>
         </div>
         <div>

@@ -10,8 +10,10 @@ const SideBar = () => {
             <li  style={{ color: "#1F2937" }}><Link to="/" className='list-group-item rounded-bottom rounded-top list-group-item-light list-group-item-action '>Intoducation</Link></li>
             <li style={{ color: "#1F2937" }}>
               <Link to="/MainLevelList" className='list-group-item rounded-bottom rounded-top list-group-item-action list-group-item-light text-black' >Level 1</Link>
-              </li>
-            <li className='list-group-item rounded-bottom rounded-top list-group-item-action list-group-item-light text-black' style={{ color: "#1F2937" }}><Link to="/" className='text-black text-decoration-none'>Level 2</Link></li>
+            </li>
+            <li style={{ color: "#1F2937" }}>
+              <Link to="/Level2List" className='list-group-item rounded-bottom rounded-top list-group-item-action list-group-item-light text-black'>Level 2</Link>
+            </li>
             <li className='list-group-item rounded-bottom rounded-top list-group-item-action list-group-item-light text-black' style={{ color: "#1F2937" }}><Link to="/" className='text-black text-decoration-none'>Level 3</Link></li>
             <li className='list-group-item rounded-bottom rounded-top list-group-item-action list-group-item-light text-black' style={{ color: "#1F2937" }}><Link to="/" className='text-black text-decoration-none'>Grammer</Link></li>
           </ul>
